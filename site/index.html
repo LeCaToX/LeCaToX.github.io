@@ -1,10 +1,128 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <title>LeCaToX Page</title>
-</head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>LeCaToX Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-    <p>Hello, welcome to my page.</p>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.facebook.com/canhtoan.le.04/" target='_blank' title='My Facebook'><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/canh-toan-le/" target='_blank' title='My LinkedIn'><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/toanleuwu/" target='_blank' title='My Instagram'><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/LeCaToX" target='_blank' title='My Instagram'><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm LeCaToX</div>
+       <div class="text-three">Software/Website Developer</div>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/about.jpg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Coding Is My Passion</div>
+      <p>When I was 7 years old, I started to play with code on Code.org and CodeCombat.com. Then, at grade 8, 
+        I began to learn Competitive Programming and my first programming language is Free Pascal. After that, 
+        I matriculated at VNU-HCM High School for the Gifted in Informatics class and continued studying Competitive Programming using C++. 
+        At the end of grade 10, I decided to quit Competitive Programming and started to learn to develope website and software with HTML, 
+        CSS, JavaScript, C++, ...</p>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class='content'>
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <img src="Images/html5-brands.svg" class="icon" alt="html5" height="120px">
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <img src="Images/css3-brands.svg" class="icon" alt="css3" height="120px">
+       </div>
+       <div class="box">
+         <div class="topic">JavaScript</div>
+         <img src="Images/js-brands.svg" class="icon" alt="js" height="120px">
+       </div>
+       <div class="box">
+         <div class="topic">C++</div>
+         <img src="Images/cpp-brands.svg" class="icon" alt="cpp" height="120px">
+       </div>
+       <div class="box">
+        <div class="topic">Python</div>
+        <img src="Images/python-brands.svg" class="icon" alt="python" height="120px">
+      </div>
+      <div class="box">
+        <div class="topic">Git/GitHub</div>
+        <img src="Images/git-brands.svg" class="icon" alt="python" height="120px">
+      </div>
+     </div>
+   </div>
+   </div>
+</section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div>Here is my email: <a href='mailto: lcnhton@gmail.com'>lcnhton@gmail.com</a></div>
+      <div>My mobile phone number: <a href='tel: +84933097944'>(+84)933097944</a></div>
+      <div>&nbsp;&nbsp;</div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span> &#169; 2021 All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
