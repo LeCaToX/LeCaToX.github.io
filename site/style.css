@@ -291,6 +291,7 @@ section .button button:hover{
 }
 .contact .content{
   margin: auto auto;
+  margin-top: 20px;
   padding: 10px 0;
 }
 .contact .text{
