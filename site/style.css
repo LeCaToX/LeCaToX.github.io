@@ -252,6 +252,7 @@ section .button button:hover{
  }
  .skills .content{
   padding: 10px 0;
+  margin-bottom: 0;
 }
  .skills .skills-details{
    display: flex;
