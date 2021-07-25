@@ -141,6 +141,9 @@ nav.sticky .menu-btn{
   -webkit-text-stroke-color: #000; 
   color: #4070f4;
 }
+.home .button{
+  margin: 14px 0;
+}
 .home .button button{
   outline: none;
   padding: 8px 16px;
